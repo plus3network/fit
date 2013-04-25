@@ -7,6 +7,8 @@ require 'mocha'
 exampleFitFile = readFileSync join __dirname, "./fixtures/example.fit"
 expected = require './fixtures/expected'
 
+# shiz
+
 describe 'fit', ->
   describe 'parse(buffer, cb)', ->
     it 'should work', (done) ->
