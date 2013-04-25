@@ -1,14 +1,14 @@
-![status](https://secure.travis-ci.org/plus3network/APPNAME.png?branch=master)
+![status](https://secure.travis-ci.org/plus3network/fit.png?branch=master)
 
 ## Information
 
 <table>
 <tr> 
-<td>Package</td><td>APPNAME</td>
+<td>Package</td><td>fit</td>
 </tr>
 <tr>
 <td>Description</td>
-<td>DESCRIPTIONHERE</td>
+<td>.fit file parser</td>
 </tr>
 <tr>
 <td>Node Version</td>
@@ -24,7 +24,7 @@ NOTHING HERE YET
 
 ## Examples
 
-You can view more examples in the [example folder.](https://github.com/plus3network/APPNAME/tree/master/examples)
+You can view more examples in the [example folder.](https://github.com/plus3network/fit/tree/master/examples)
 
 ## LICENSE
 
@@ -45,7 +45,7 @@ included in all copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
 EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
-MERCHANTABILITY, APPNAMENESS FOR A PARTICULAR PURPOSE AND
+MERCHANTABILITY, fitNESS FOR A PARTICULAR PURPOSE AND
 NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
 LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
 OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION

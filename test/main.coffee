@@ -1,10 +1,16 @@
-APPNAME = require '../'
+fit = require '../'
+{readFileSync} = require 'fs'
+{join} = require 'path'
 should = require 'should'
 require 'mocha'
 
-describe 'APPNAME', ->
-  describe 'FUNCTIONNAME()', ->
-    it 'should TASKNAME', (done) ->
-      should.exist true
-      true.should.equal.true
-      done()
+exampleFitFile = readFileSync join __dirname, "./fixtures/example.fit"
+expected = require './fixtures/expected'
+
+describe 'fit', ->
+  describe 'parse(buffer, cb)', ->
+    it 'should work', (done) ->
+      fit.parse exampleFitFile, (err, res) ->
+        should.not.exist err
+        res.should.eql expected
+        done()

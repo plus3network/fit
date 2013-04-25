@@ -1,21 +1,22 @@
 {
-   "name":"APPNAME",
-   "description":"DESCRIPTIONHERE",
+   "name":"fit",
+   "description":".fit file parser",
    "version":"0.0.1",
-   "homepage":"http://github.com/plus3network/APPNAME",
-   "repository":"git://github.com/plus3network/APPNAME.git",
+   "homepage":"http://github.com/plus3network/fit",
+   "repository":"git://github.com/plus3network/fit.git",
    "author":"Plus 3 Network Inc <dev@plus3network.com> (http://plus3network.com/)",
    "main":"./index.js",
    
    "dependencies":{
-      "coffee-script":"*"
+      "coffee-script":"*",
+      "java":"*"
    },
    "devDependencies":{
       "mocha":"*",
       "should":"*"
    },
    "scripts":{
-      "test":"make test"
+      "test":"mocha --compilers coffee:coffee-script"
    },
    "engines":{
       "node":">= 0.4.0"
@@ -23,7 +24,7 @@
    "licenses":[
       {
          "type":"MIT",
-         "url":"http://github.com/plus3network/APPNAME/raw/master/LICENSE"
+         "url":"http://github.com/plus3network/fit/raw/master/LICENSE"
       }
    ]
 }
