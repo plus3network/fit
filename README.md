@@ -12,19 +12,21 @@
 </tr>
 <tr>
 <td>Node Version</td>
-<td>>= 0.4</td>
+<td>>= 0.6</td>
 </tr>
 </table>
 
 ## Usage
 
 ```coffee-script
-NOTHING HERE YET
+fs = require 'fs'
+fit = require 'fit'
+
+fitFileBuffer = fs.readFileSync "example.fit"
+
+fit.parse fitFileBuffer, (err, data) ->
+  # data is a JSON object
 ```
-
-## Examples
-
-You can view more examples in the [example folder.](https://github.com/plus3network/fit/tree/master/examples)
 
 ## LICENSE
 
