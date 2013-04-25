@@ -1,10 +1,10 @@
 {
    "name":"APPNAME",
-   "description":"Nothing here yet",
+   "description":"DESCRIPTIONHERE",
    "version":"0.0.1",
-   "homepage":"http://github.com/wearefractal/APPNAME",
-   "repository":"git://github.com/wearefractal/APPNAME.git",
-   "author":"Fractal <contact@wearefractal.com> (http://wearefractal.com/)",
+   "homepage":"http://github.com/plus3network/APPNAME",
+   "repository":"git://github.com/plus3network/APPNAME.git",
+   "author":"Plus 3 Network Inc <dev@plus3network.com> (http://plus3network.com/)",
    "main":"./index.js",
    
    "dependencies":{
@@ -12,10 +12,7 @@
    },
    "devDependencies":{
       "mocha":"*",
-      "mocha-phantomjs": "*",
-      "should":"*",
-      "component":"*",
-      "uglify-js":"*"
+      "should":"*"
    },
    "scripts":{
       "test":"make test"
@@ -26,7 +23,7 @@
    "licenses":[
       {
          "type":"MIT",
-         "url":"http://github.com/wearefractal/APPNAME/raw/master/LICENSE"
+         "url":"http://github.com/plus3network/APPNAME/raw/master/LICENSE"
       }
    ]
 }
