@@ -1,5 +1,3 @@
-![status](https://secure.travis-ci.org/plus3network/fit.png?branch=master)
-
 ## Information
 
 <table>
