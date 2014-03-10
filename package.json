@@ -16,7 +16,7 @@
       "should":"*"
    },
    "scripts":{
-      "test":"mocha --compilers coffee:coffee-script"
+      "test":"mocha --compilers coffee:coffee-script/register"
    },
    "engines":{
       "node":">= 0.6.0"
