@@ -8,7 +8,7 @@
    "main":"./index.js",
    
    "dependencies":{
-      "coffee-script":"*",
+      "coffee-script":"~1.7.0",
       "java":"*"
    },
    "devDependencies":{
@@ -16,7 +16,7 @@
       "should":"*"
    },
    "scripts":{
-      "test":"mocha --compilers coffee:coffee-script"
+      "test":"mocha --compilers coffee:coffee-script/register"
    },
    "engines":{
       "node":">= 0.6.0"
