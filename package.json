@@ -1,30 +1,29 @@
 {
-   "name":"fit",
-   "description":".fit file parser",
-   "version":"0.0.1",
-   "homepage":"http://github.com/plus3network/fit",
-   "repository":"git://github.com/plus3network/fit.git",
-   "author":"Plus 3 Network Inc <dev@plus3network.com> (http://plus3network.com/)",
-   "main":"./index.js",
-   
-   "dependencies":{
-      "coffee-script":"~1.7.0",
-      "java":"*"
-   },
-   "devDependencies":{
-      "mocha":"*",
-      "should":"*"
-   },
-   "scripts":{
-      "test":"mocha --compilers coffee:coffee-script/register"
-   },
-   "engines":{
-      "node":">= 0.6.0"
-   },
-   "licenses":[
-      {
-         "type":"MIT",
-         "url":"http://github.com/plus3network/fit/raw/master/LICENSE"
-      }
-   ]
+  "name": "fit",
+  "description": ".fit file parser",
+  "version": "0.0.2",
+  "homepage": "http://github.com/plus3network/fit",
+  "repository": "git://github.com/plus3network/fit.git",
+  "author": "Plus 3 Network Inc <dev@plus3network.com> (http://plus3network.com/)",
+  "main": "./index.js",
+  "dependencies": {
+    "coffee-script": "~1.7.0",
+    "java": "~0.3.1"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*"
+  },
+  "scripts": {
+    "test": "mocha --compilers coffee:coffee-script/register"
+  },
+  "engines": {
+    "node": ">= 0.6.0"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/plus3network/fit/raw/master/LICENSE"
+    }
+  ]
 }
