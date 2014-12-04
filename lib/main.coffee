@@ -4,14 +4,14 @@ java = require 'java'
 java.classpath.push join __dirname, "../external/FitToJson.jar"
 
 module.exports = fit =
-  bufferToByteArray: (buf) -> 
+  bufferToByteArray: (buf) ->
     bArr = Array.prototype.slice.call buf, 0
     jbArr = bArr.map (b) -> java.newByte b
     return java.newArray "byte", jbArr
-  
+
   parse: (buf, cb) ->
     return cb new Error "Invalid Buffer" unless Buffer.isBuffer buf
-    
+
     bArr = fit.bufferToByteArray buf
 
     java.newInstance "ws.plus3.fit.FitToJson", bArr, (err, FitToJson) ->
