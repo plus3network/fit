@@ -1,7 +1,7 @@
 ## Information
 
 <table>
-<tr> 
+<tr>
 <td>Package</td><td>fit</td>
 </tr>
 <tr>
@@ -30,7 +30,7 @@ fit.parse fitFileBuffer, (err, data) ->
 
 (MIT License)
 
-Copyright (c) 2013 Plus 3 Network Inc <support@plus3network.com>
+Copyright (c) 2015 Plus 3 Network Inc <support@plus3network.com>
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
