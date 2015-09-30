@@ -1,6 +1,6 @@
 ## Information
 
-[![Build Status](https://travis-ci.org/plus3network/fit.svg?branch=v0.0.3)](https://travis-ci.org/plus3network/fit)
+[![Build Status](https://travis-ci.org/vibgy/fit.svg?branch=v0.0.3)](https://travis-ci.org/vibgy/fit)
 
 <table>
 <tr> 
