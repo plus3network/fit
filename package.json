@@ -1,7 +1,7 @@
 {
   "name": "fit",
   "description": ".fit file parser",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "homepage": "http://github.com/plus3network/fit",
   "repository": "git://github.com/plus3network/fit.git",
   "author": "Plus 3 Network Inc <dev@plus3network.com> (http://plus3network.com/)",
