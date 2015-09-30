@@ -1,14 +1,14 @@
 {
   "name": "fit",
   "description": ".fit file parser",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "homepage": "http://github.com/plus3network/fit",
   "repository": "git://github.com/plus3network/fit.git",
   "author": "Plus 3 Network Inc <dev@plus3network.com> (http://plus3network.com/)",
   "main": "./index.js",
   "dependencies": {
-    "coffee-script": "~1.7.0",
-    "java": "~0.3.1"
+    "coffee-script": "^1.7.0",
+    "java": "^0.6.0"
   },
   "devDependencies": {
     "mocha": "*",
@@ -18,7 +18,7 @@
     "test": "mocha --compilers coffee:coffee-script/register"
   },
   "engines": {
-    "node": ">= 0.6.0"
+    "node": ">=0.10.40"
   },
   "licenses": [
     {
