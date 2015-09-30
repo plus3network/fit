@@ -4,6 +4,9 @@ fit = require '../'
 should = require 'should'
 require 'mocha'
 
+# because expected result file is in MST timezone
+process.env.TZ = 'America/Phoenix'
+
 exampleFitFile = readFileSync join __dirname, "./fixtures/example.fit"
 expected = require './fixtures/expected'
 

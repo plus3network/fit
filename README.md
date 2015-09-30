@@ -10,7 +10,7 @@
 </tr>
 <tr>
 <td>Node Version</td>
-<td>>= 0.6</td>
+<td>>= 0.10.40</td>
 </tr>
 </table>
 
