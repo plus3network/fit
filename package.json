@@ -11,11 +11,15 @@
     "java": "^0.6.0"
   },
   "devDependencies": {
+    "time": "*",
+    "istanbul": "*",
+    "coveralls": "*",
     "mocha": "*",
     "should": "*"
   },
   "scripts": {
-    "test": "mocha --compilers coffee:coffee-script/register"
+    "test": "./node_modules/istanbul/lib/cli.js cover ./node_modules/.bin/_mocha -- --compilers coffee:coffee-script/register",
+    "coveralls": "cat ./coverage/lcov.info | ./node_modules/.bin/coveralls"
   },
   "engines": {
     "node": ">=0.10.40"
