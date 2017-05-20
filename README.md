@@ -1,5 +1,9 @@
 ## Information
 
+[![Build Status](https://travis-ci.org/vibgy/fit.svg?branch=master)](https://travis-ci.org/vibgy/fit)
+
+[![Coverage Status](https://coveralls.io/repos/vibgy/fit/badge.svg?branch=master)](https://coveralls.io/r/vibgy/fit?branch=master)
+
 <table>
 <tr> 
 <td>Package</td><td>fit</td>
